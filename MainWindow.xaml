@@ -1,0 +1,15 @@
+﻿<Window x:Class="generatorpass.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:generatorpass"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Очистить" HorizontalAlignment="Left" Margin="136,224,0,0" VerticalAlignment="Top" Width="128" Height="47" FontSize="20" Click="Button_Click_1"/>
+        <Button Content="Сгенерировать" HorizontalAlignment="Left" Margin="380,224,0,0" VerticalAlignment="Top" Width="159" Height="47" FontSize="20" Click="Button_Click"/>
+        <TextBox Name="tbPass" HorizontalAlignment="Left" Height="19" Margin="184,91,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="276"/>
+
+    </Grid>
+</Window>
